@@ -144,7 +144,7 @@ scholar:
   last_name: Goldblum
   first_name: [Micah]
 
-  style: apa
+  style: ibis
   locale: en
 
   source: /_bibliography/
