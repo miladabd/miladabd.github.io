@@ -1,72 +1,279 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@article{goldblum2020adversarially1,
+  abbr={goldblum2020adversarially1},
+  title={Adversarially Robust Few-Shot Learning: A Meta-Learning Approach},
+  author={Goldblum, Micah and Fowl, Liam and Goldstein, Tom},
+  journal={Advances in Neural Information Processing Systems (NeurIPS),},
+  volume={33},
+  year={2020},
+  selected = {true},
+  html={https://arxiv.org/abs/1910.00982},
+  abstract={Previous work on adversarially robust neural networks for image classification requires large training sets and computationally expensive training procedures. On the other hand, few-shot learning methods are highly vulnerable to adversarial examples. The goal of our work is to produce networks which both perform well at few-shot classification tasks and are simultaneously robust to adversarial examples. We develop an algorithm, called Adversarial Querying (AQ), for producing adversarially robust meta-learners, and we thoroughly investigate the causes for adversarial vulnerability. Moreover, our method achieves far superior robust performance on few-shot image classification tasks, such as Mini-ImageNet and CIFAR-FS, than robust transfer learning.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{goldblum2020unraveling,
+  abbr={goldblum2020unraveling},
+  title={Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot tTasks},
+  author={Goldblum, Micah and Reich, Steven and Fowl, Liam and Ni, Renkun and Cherepanova, Valeriia and Goldstein, Tom},
+  booktitle={International Conference on Machine Learning (ICML),},
+  pages={3607--3616},
+  year={2020},
+  organization={PMLR},
+  selected = {true},
+  html={https://arxiv.org/abs/2002.06753},
+  abstract={Meta-learning algorithms produce feature extractors which achieve state-of-the-art performance on few-shot classification. While the literature is rich with meta-learning methods, little is known about why the resulting feature extractors perform so well. We develop a better understanding of the underlying mechanics of meta-learning and the difference between models trained using meta-learning and models which are trained classically. In doing so, we introduce and verify several hypotheses for why meta-learned models perform better. Furthermore, we develop a regularizer which boosts the performance of standard training routines for few-shot classification. In many cases, our routine outperforms meta-learning while simultaneously running an order of magnitude faster.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@article{goldblum2019truth,
+  abbr={goldblum2019truth},
+  title={Truth or Backpropaganda? An Empirical Investigation of Deep Learning Theory},
+  author={Goldblum, Micah and Geiping, Jonas and Schwarzschild, Avi and Moeller, Michael and Goldstein, Tom},
+  journal={International Conference on Learning Representations (ICLR),},
+  year={2020},
+  selected = {true},
+  html={https://arxiv.org/abs/1910.00359},
+  abstract={We empirically evaluate common assumptions about neural networks that are widely held by practitioners and theorists alike. In this work, we: (1) prove the widespread existence of suboptimal local minima in the loss landscape of neural networks, and we use our theory to find examples; (2) show that small-norm parameters are not optimal for generalization; (3) demonstrate that ResNets do not conform to wide-network theories, such as the neural tangent kernel, and that the interaction between skip connections and batch normalization plays a role; (4) find that rank does not correlate with generalization or robustness in a practical setting.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{goldblum2020adversarially2,
+  abbr={goldblum2020adversarially2},
+  title={Adversarially Robust Distillation},
+  author={Goldblum, Micah and Fowl, Liam and Feizi, Soheil and Goldstein, Tom},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI),},
+  volume={34},
+  number={04},
+  pages={3996--4003},
+  year={2020},
+  selected = {true},
+  html={https://arxiv.org/abs/1905.09747},
+  abstract={Knowledge distillation is effective for producing small, high-performance neural networks for classification, but these small networks are vulnerable to adversarial attacks. This paper studies how adversarial robustness transfers from teacher to student during knowledge distillation. We find that a large amount of robustness may be inherited by the student even when distilled on only clean images. Second, we introduce Adversarially Robust Distillation (ARD) for distilling robustness onto student networks. In addition to producing small models with high test accuracy like conventional distillation, ARD also passes the superior robustness of large networks onto the student. In our experiments, we find that ARD student models decisively outperform adversarially trained networks of identical architecture in terms of robust accuracy, surpassing state-of-the-art methods on standard robustness benchmarks. Finally, we adapt recent fast adversarial training methods to ARD for accelerated robust distillation.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@article{ni2021data,
+  abbr={ni2021data},
+  title={Data Augmentation for Meta-Learning},
+  author={Ni, Renkun and Goldblum, Micah and Sharaf, Amr and Kong, Kezhi and Goldstein, Tom},
+  journal={International Conference on Machine Learning (ICML),},
+  year={2021},
+  selected = {true},
+  html={https://arxiv.org/abs/2010.07092},
+  abstract={Conventional image classifiers are trained by randomly sampling mini-batches of images. To achieve state-of-the-art performance, practitioners use sophisticated data augmentation schemes to expand the amount of training data available for sampling. In contrast, meta-learning algorithms sample support data, query data, and tasks on each training step. In this complex sampling scenario, data augmentation can be used not only to expand the number of images available per class, but also to generate entirely new classes/tasks. We systematically dissect the meta-learning pipeline and investigate the distinct ways in which data augmentation can be integrated at both the image and class levels. Our proposed meta-specific data augmentation significantly improves the performance of meta-learners on few-shot classification benchmarks.}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{schwarzschild2020just,
+  abbr={schwarzschild2020just},
+  title={Just How Toxic is Data Poisoning? A Unified Benchmark for Backdoor and Data Poisoning Attacks},
+  author={Schwarzschild, Avi and Goldblum, Micah and Gupta, Arjun and Dickerson, John P and Goldstein, Tom},
+  journal={International Conference on Machine Learning (ICML),},
+  year={2021},
+  selected = {true},
+  html={https://arxiv.org/abs/2006.12557},
+  abstract={Data poisoning and backdoor attacks manipulate training data in order to cause models to fail during inference. A recent survey of industry practitioners found that data poisoning is the number one concern among threats ranging from model stealing to adversarial attacks. However, it remains unclear exactly how dangerous poisoning methods are and which ones are more effective considering that these methods, even ones with identical objectives, have not been tested in consistent or realistic settings. We observe that data poisoning and backdoor attacks are highly sensitive to variations in the testing setup. Moreover, we find that existing methods may not generalize to realistic settings. While these existing works serve as valuable prototypes for data poisoning, we apply rigorous tests to determine the extent to which we should fear them. In order to promote fair comparison in future work, we develop standardized benchmarks for data poisoning and backdoor attacks.}
 }
+
+@inproceedings{cherepanova2021lowkey,
+  abbr={cherepanova2021lowkey},
+  title={LowKey: Leveraging Adversarial Attacks to Protect Social Media Users from Facial Recognition},
+  author={Cherepanova, Valeriia and Goldblum, Micah and Foley, Harrison and Duan, Shiyuan and Dickerson, John P and Taylor, Gavin and Goldstein, Tom},
+  booktitle={International Conference on Learning Representations (ICLR),},
+  year={2021},
+  selected = {true},
+  html={https://arxiv.org/abs/2101.07922},
+  abstract={Facial recognition systems are increasingly deployed by private corporations, government agencies, and contractors for consumer services and mass surveillance programs alike. These systems are typically built by scraping social media profiles for user images. Adversarial perturbations have been proposed for bypassing facial recognition systems. However, existing methods fail on full-scale systems and commercial APIs. We develop our own adversarial filter that accounts for the entire image processing pipeline and is demonstrably effective against industrial-grade pipelines that include face detection and large scale databases. Additionally, we release an easy-to-use webtool that significantly degrades the accuracy of Amazon Rekognition and the Microsoft Azure Face Recognition API, reducing the accuracy of each to below 1%.}
+}
+
+@article{goldblum2021dataset,
+  title={Dataset Security for Machine Learning: Data Poisoning, Backdoor Attacks, and Defenses},
+  author={Goldblum, Micah and Tsipras, Dimitris and Xie, Chulin and Chen, Xinyun and Schwarzschild, Avi and Song, Dawn and Madry, Aleksander and Li, Bo and Goldstein, Tom},
+  journal={},
+  year={2021},
+  html={https://arxiv.org/abs/2012.10544},
+  abstract={As machine learning systems grow in scale, so do their training data requirements, forcing practitioners to automate and outsource the curation of training data in order to achieve state-of-the-art performance. The absence of trustworthy human supervision over the data collection process exposes organizations to security vulnerabilities; training data can be manipulated to control and degrade the downstream behaviors of learned models. The goal of this work is to systematically categorize and discuss a wide range of dataset vulnerabilities and exploits, approaches for defending against these threats, and an array of open problems in this space. In addition to describing various poisoning and backdoor threat models and the relationships among them, we develop their unified taxonomy.}
+}
+
+@article{pope2021intrinsic,
+  abbr={pope2021intrinsic},
+  title={The Intrinsic Dimension of Images and Its Impact on Learning},
+  author={Pope, Phillip and Zhu, Chen and Abdelkader, Ahmed and Goldblum, Micah and Goldstein, Tom},
+  journal={International Conference on Learning Representations (ICLR),},
+  year={2021},
+  selected = {true},
+  html={https://arxiv.org/abs/2104.08894},
+  abstract={It is widely believed that natural image data exhibits low-dimensional structure despite the high dimensionality of conventional pixel representations. This idea underlies a common intuition for the remarkable success of deep learning in computer vision. In this work, we apply dimension estimation tools to popular datasets and investigate the role of low-dimensional structure in deep learning. We find that common natural image datasets indeed have very low intrinsic dimension relative to the high number of pixels in the images. Additionally, we find that low dimensional datasets are easier for neural networks to learn, and models solving these tasks generalize better from training to test data. Along the way, we develop a technique for validating our dimension estimation tools on synthetic data generated by GANs allowing us to actively manipulate the intrinsic dimension by controlling the image generation process.}
+}
+
+
+@inproceedings{borgnia2021strong,
+  title={Strong Data Augmentation Sanitizes Poisoning and Backdoor Attacks Without an Accuracy Tradeoff},
+  author={Borgnia, Eitan and Cherepanova, Valeriia and Fowl, Liam and Ghiasi, Amin and Geiping, Jonas and Goldblum, Micah and Goldstein, Tom and Gupta, Arjun},
+  booktitle={ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP),},
+  pages={3855--3859},
+  year={2021},
+  organization={IEEE},
+  html={https://arxiv.org/abs/2011.09527},
+  abstract={Data poisoning and backdoor attacks manipulate victim models by maliciously modifying training data. In light of this growing threat, a recent survey of industry professionals revealed heightened fear in the private sector regarding data poisoning. Many previous defenses against poisoning either fail in the face of increasingly strong attacks, or they significantly degrade performance. However, we find that strong data augmentations, such as mixup and CutMix, can significantly diminish the threat of poisoning and backdoor attacks without trading off performance. We further verify the effectiveness of this simple defense against adaptive poisoning methods, and we compare to baselines including the popular differentially private SGD (DP-SGD) defense. In the context of backdoors, CutMix greatly mitigates the attack while simultaneously increasing validation accuracy by 9%.}
+}
+
+@article{tran2020open,
+  title={An Open Review of OpenReview: A Critical Analysis of the Machine Learning Conference Review Process},
+  author={Tran, David and Valtchanov, Alex and Ganapathy, Keshav and Feng, Raymond and Slud, Eric and Goldblum, Micah and Goldstein, Tom},
+  journal={},
+  year={2020},
+  html={https://arxiv.org/abs/2010.05137},
+  abstract={Mainstream machine learning conferences have seen a dramatic increase in the number of participants, along with a growing range of perspectives, in recent years. Members of the machine learning community are likely to overhear allegations ranging from randomness of acceptance decisions to institutional bias. In this work, we critically analyze the review process through a comprehensive study of papers submitted to ICLR between 2017 and 2020. We quantify reproducibility/randomness in review scores and acceptance decisions, and examine whether scores correlate with paper impact. Our findings suggest strong institutional bias in accept/reject decisions, even after controlling for paper quality. Furthermore, we find evidence for a gender gap, with female authors receiving lower scores, lower acceptance rates, and fewer citations per paper than their male counterparts. We conclude our work with recommendations for future conference organizers.}
+}
+
+@inproceedings{chiang2020witchcraft,
+  title={Witchcraft: Efficient PGD Attacks with Random Step Size},
+  author={Chiang, Ping-Yeh and Geiping, Jonas and Goldblum, Micah and Goldstein, Tom and Ni, Renkun and Reich, Steven and Shafahi, Ali},
+  booktitle={ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP),},
+  pages={3747--3751},
+  year={2020},
+  organization={IEEE},
+  html={https://arxiv.org/abs/1911.07989},
+  abstract={State-of-the-art adversarial attacks on neural networks use expensive iterative methods and numerous random restarts from different initial points. Iterative FGSM-based methods without restarts trade off performance for computational efficiency because they do not adequately explore the image space and are highly sensitive to the choice of step size. We propose a variant of Projected Gradient Descent (PGD) that uses a random step size to improve performance without resorting to expensive random restarts. Our method, Wide Iterative Stochastic crafting (WITCHcraft), achieves results superior to the classical PGD attack on the CIFAR-10 and MNIST data sets but without additional computational cost. This simple modification of PGD makes crafting attacks more economical, which is important in situations like adversarial training where attacks need to be crafted in real time.}
+}
+
+@inproceedings{goldblum2019sheared,
+  title={Sheared Multi-Scale Weight Sharing for Multi-Spectral Superresolution},
+  author={Goldblum, Micah and Fowl, Liam and Czaja, Wojciech},
+  booktitle={Algorithms, Technologies, and Applications for Multispectral and Hyperspectral Imagery XXV,},
+  volume={10986},
+  pages={109860X},
+  year={2019},
+  organization={International Society for Optics and Photonics},
+  html={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10986/109860X/Sheared-multi-scale-weight-sharing-for-multi-spectral-superresolution/10.1117/12.2519982.short?SSO=1},
+  abstract={Deep learning approaches to single-image superresolution typically use convolutional neural networks. Convolutional layers introduce translation invariance to neural networks. However, other spatial invariants appear in imaging data. Two such invariances are scale invariance, similar features at multiple spacial scales, and shearing invariance. We investigate these invariances by using weight sharing between dilated and sheared convolutional kernels in the context of multi-spectral imaging data. Traditional pooling methods can extract features at coarse spacial levels. Our approach explores a finer range of scales. Additionally, our approach offers improved storage efficiency because dilated and sheared convolutions allows single trainable kernels to extract information at multiple spacial scales and shears without the costs of training and storing many filters, especially in multi-spectral imaging where data representations are complex.}
+}
+
+
+
+
+
+
+@article{goldblum2020adversarial,
+  title={Adversarial Attacks on Machine Learning Systems for High-Frequency Trading},
+  author={Goldblum, Micah and Schwarzschild, Avi and Patel, Ankit B and Goldstein, Tom},
+  journal={},
+  year={preprint},
+  html={https://arxiv.org/abs/2002.09565},
+  abstract={Algorithmic trading systems are often completely automated, and deep learning is increasingly receiving attention in this domain. Nonetheless, little is known about the robustness properties of these models. We study valuation models for algorithmic trading from the perspective of adversarial machine learning. We introduce new attacks specific to this domain with size constraints that minimize attack costs. We further discuss how these attacks can be used as an analysis tool to study and evaluate the robustness properties of financial models. Finally, we investigate the feasibility of realistic adversarial attacks in which an adversarial trader fools automated trading systems into making inaccurate predictions.}
+}
+
+@article{somepalli2021saint,
+  title={SAINT: Improved Neural Networks for Tabular Data via Row Attention and Contrastive Pre-Training},
+  author={Somepalli, Gowthami and Goldblum, Micah and Schwarzschild, Avi and Bruss, C Bayan and Goldstein, Tom},
+  journal={},
+  year={preprint},
+  html={https://arxiv.org/abs/2106.01342},
+  abstract={Tabular data underpins numerous high-impact applications of machine learning from fraud detection to genomics and healthcare. Classical approaches to solving tabular problems, such as gradient boosting and random forests, are widely used by practitioners. However, recent deep learning methods have achieved a degree of performance competitive with popular techniques. We devise a hybrid deep learning approach to solving tabular data problems. Our method, SAINT, performs attention over both rows and columns, and it includes an enhanced embedding method. We also study a new contrastive self-supervised pre-training method for use when labels are scarce. SAINT consistently improves performance over previous deep learning methods, and it even outperforms gradient boosting methods, including XGBoost, CatBoost, and LightGBM, on average over a variety of benchmark tasks.}
+}
+
+@article{fowl2021adversarial,
+  title={Adversarial Examples Make Strong Poisons},
+  author={Fowl, Liam and Goldblum, Micah and Chiang, Ping-yeh and Geiping, Jonas and Czaja, Wojtek and Goldstein, Tom},
+  journal={},
+  year={preprint},
+  html={https://arxiv.org/abs/2106.10807},
+  abstract={The adversarial machine learning literature is largely partitioned into evasion attacks on testing data and poisoning attacks on training data. In this work, we show that adversarial examples, originally intended for attacking pre-trained models, are even more effective for data poisoning than recent methods designed specifically for poisoning. Our findings indicate that adversarial examples, when assigned the original label of their natural base image, cannot be used to train a classifier for natural images. Furthermore, when adversarial examples are assigned their adversarial class label, they are useful for training. This suggests that adversarial examples contain useful semantic content, just with the ``wrong'' labels (according to a network, but not a human). Our method, adversarial poisoning, is substantially more effective than existing poisoning methods for secure dataset release, and we release a poisoned version of ImageNet, ImageNet-P, to encourage research into the strength of this form of data obfuscation.}
+}
+
+@article{bansal2021metabalance,
+  title={MetaBalance: High-Performance Neural Networks for Class-Imbalanced Data},
+  author={Bansal, Arpit and Goldblum, Micah and Cherepanova, Valeriia and Schwarzschild, Avi and Bruss, C Bayan and Goldstein, Tom},
+  journal={},
+  year={preprint},
+  html={https://arxiv.org/abs/2106.09643},
+  abstract={Class-imbalanced data, in which some classes contain far more samples than others, is ubiquitous in real-world applications. Standard techniques for handling class-imbalance usually work by training on a re-weighted loss or on re-balanced data. Unfortunately, training overparameterized neural networks on such objectives causes rapid memorization of minority class data. To avoid this trap, we harness meta-learning, which uses both an ''outer-loop'' and an ''inner-loop'' loss, each of which may be balanced using different strategies. We evaluate our method, MetaBalance, on image classification, credit-card fraud detection, loan default prediction, and facial recognition tasks with severely imbalanced data, and we find that MetaBalance outperforms a wide array of popular re-sampling strategies.}
+}
+
+@article{souri2021sleeper,
+  title={Sleeper Agent: Scalable Hidden Trigger Backdoors for Neural Networks Trained from Scratch},
+  author={Souri, Hossein and Goldblum, Micah and Fowl, Liam and Chellappa, Rama and Goldstein, Tom},
+  journal={},
+  year={preprint},
+  html={https://arxiv.org/abs/2106.08970},
+  abstract={As the curation of data for machine learning becomes increasingly automated, dataset tampering is a mounting threat. Backdoor attackers tamper with training data to embed a vulnerability in models that are trained on that data. This vulnerability is then activated at inference time by placing a "trigger" into the model's input. Typical backdoor attacks insert the trigger directly into the training data, although the presence of such an attack may be visible upon inspection. In contrast, the Hidden Trigger Backdoor Attack achieves poisoning without placing a trigger into the training data at all. However, this hidden trigger attack is ineffective at poisoning neural networks trained from scratch. We develop a new hidden trigger attack, Sleeper Agent, which employs gradient matching, data selection, and target model re-training during the crafting process. Sleeper Agent is the first hidden trigger backdoor attack to be effective against neural networks trained from scratch. We demonstrate its effectiveness on ImageNet and in black-box settings.}
+}
+
+@article{fowl2020random,
+  title={Random Network Distillation as a Diversity Metric for Both Image and Text Generation},
+  author={Fowl, Liam and Goldblum, Micah and Gupta, Arjun and Sharaf, Amr and Goldstein, Tom},
+  journal={},
+  year={preprint},
+  html={https://arxiv.org/abs/2010.06715},
+  abstract={Generative models are increasingly able to produce remarkably high quality images and text. The community has developed numerous evaluation metrics for comparing generative models. However, these metrics do not effectively quantify data diversity. We develop a new diversity metric that can readily be applied to data, both synthetic and natural, of any type. Our method employs random network distillation, a technique introduced in reinforcement learning. We validate and deploy this metric on both images and text. We further explore diversity in few-shot image generation, a setting which was previously difficult to evaluate.}
+}
+
+@article{ronny2019understanding,
+  title={Understanding Generalization through Visualizations},
+  author={Ronny Huang, W and Emam, Zeyad and Goldblum, Micah and Fowl, Liam and Terry, Justin K and Huang, Furong and Goldstein, Tom},
+  journal={},
+  pages={arXiv--1906},
+  year={preprint},
+  html={https://arxiv.org/abs/1906.03291},
+  abstract={The power of neural networks lies in their ability to generalize to unseen data, yet the underlying reasons for this phenomenon remain elusive. Numerous rigorous attempts have been made to explain generalization, but available bounds are still quite loose, and analysis does not always lead to true understanding. The goal of this work is to make generalization more intuitive. Using visualization methods, we discuss the mystery of generalization, the geometry of loss landscapes, and how the curse (or, rather, the blessing) of dimensionality causes optimizers to settle into minima that generalize well.}
+}
+
+@article{schwarzschild2021can,
+  title={Can You Learn an Algorithm? Generalizing from Easy to Hard Problems with Recurrent Networks},
+  author={Schwarzschild, Avi and Borgnia, Eitan and Gupta, Arjun and Huang, Furong and Vishkin, Uzi and Goldblum, Micah and Goldstein, Tom},
+  journal={},
+  year={preprint},
+  html={https://arxiv.org/abs/2106.04537},
+  abstract={Deep neural networks are powerful machines for visual pattern recognition, but reasoning tasks that are easy for humans may still be difficult for neural models. Humans possess the ability to extrapolate reasoning strategies learned on simple problems to solve harder examples, often by thinking for longer. For example, a person who has learned to solve small mazes can easily extend the very same search techniques to solve much larger mazes by spending more time. In computers, this behavior is often achieved through the use of algorithms, which scale to arbitrarily hard problem instances at the cost of more computation. In contrast, the sequential computing budget of feed-forward neural networks is limited by their depth, and networks trained on simple problems have no way of extending their reasoning to accommodate harder problems. In this work, we show that recurrent networks trained to solve simple problems with few recurrent steps can indeed solve much more complex problems simply by performing additional recurrences during inference. We demonstrate this algorithmic behavior of recurrent networks on prefix sum computation, mazes, and chess. In all three domains, networks trained on simple problem instances are able to extend their reasoning abilities at test time simply by "thinking for longer."}
+}
+
+@article{schwarzschild2021uncanny,
+  title={The Uncanny Similarity of Recurrence and Depth},
+  author={Schwarzschild, Avi and Gupta, Arjun and Ghiasi, Amin and Goldblum, Micah and Goldstein, Tom},
+  journal={},
+  year={preprint},
+  html={https://arxiv.org/abs/2102.11011},
+  abstract={It is widely believed that deep neural networks contain layer specialization, wherein networks extract hierarchical features representing edges and patterns in shallow layers and complete objects in deeper layers. Unlike common feed-forward models that have distinct filters at each layer, recurrent networks reuse the same parameters at various depths. In this work, we observe that recurrent models exhibit the same hierarchical behaviors and the same performance benefits as depth despite reusing the same filters at every recurrence. By training models of various feed-forward and recurrent architectures on several datasets for image classification as well as maze solving, we show that recurrent networks have the ability to closely emulate the behavior of non-recurrent deep models, often doing so with far fewer parameters.}
+}
+
+@article{fowl2021preventing,
+  title={Preventing Unauthorized Use of Proprietary Data: Poisoning for Secure Dataset Release},
+  author={Fowl, Liam and Chiang, Ping-yeh and Goldblum, Micah and Geiping, Jonas and Bansal, Arpit and Czaja, Wojtek and Goldstein, Tom},
+  journal={},
+  year={preprint},
+  html={https://arxiv.org/abs/2103.02683},
+  abstract={Large organizations such as social media companies continually release data, for example user images. At the same time, these organizations leverage their massive corpora of released data to train proprietary models that give them an edge over their competitors. These two behaviors can be in conflict as an organization wants to prevent competitors from using their own data to replicate the performance of their proprietary models. We solve this problem by developing a data poisoning method by which publicly released data can be minimally modified to prevent others from train-ing models on it. Moreover, our method can be used in an online fashion so that companies can protect their data in real time as they release it. We demonstrate the success of our approach on ImageNet classification and on facial recognition.}
+}
+
+
+@article{shu2020prepare,
+  title={Prepare for the Worst: Generalizing across Domain Shifts with Adversarial Batch Normalization},
+  author={Shu, Manli and Wu, Zuxuan and Goldblum, Micah and Goldstein, Tom},
+  journal={},
+  year={preprint},
+  html={https://arxiv.org/abs/2009.08965},
+  abstract={Adversarial training is the industry standard for producing models that are robust to small adversarial perturbations. However, machine learning practitioners need models that are robust to domain shifts that occur naturally, such as changes in the style or illumination of input images. Such changes in input distribution have been effectively modeled as shifts in the mean and variance of deep image features. We adapt adversarial training by adversarially perturbing these feature statistics, rather than image pixels, to produce models that are robust to domain shift. We also visualize images from adversarially crafted distributions. Our method, Adversarial Batch Normalization (AdvBN), significantly improves the performance of ResNet-50 on ImageNet-C (+8.1%), Stylized-ImageNet (+6.7%), and ImageNet-Instagram (+3.9%) over standard training practices. In addition, we demonstrate that AdvBN can also improve generalization on semantic segmentation.}
+}
+
+
+@article{geiping2021doesn,
+  title={What Doesn't Kill You Makes You Robust (er): Adversarial Training against Poisons and Backdoors},
+  author={Geiping, Jonas and Fowl, Liam and Somepalli, Gowthami and Goldblum, Micah and Moeller, Michael and Goldstein, Tom},
+  journal={},
+  year={preprint},
+  html={https://arxiv.org/abs/2102.13624},
+  abstract={Data poisoning is a threat model in which a malicious actor tampers with training data to manipulate outcomes at inference time. A variety of defenses against this threat model have been proposed, but each suffers from at least one of the following flaws: they are easily overcome by adaptive attacks, they severely reduce testing performance, or they cannot generalize to diverse data poisoning threat models. Adversarial training, and its variants, is currently considered the only empirically strong defense against (inference-time) adversarial attacks. In this work, we extend the adversarial training framework to instead defend against (training-time) poisoning and backdoor attacks. Our method desensitizes networks to the effects of poisoning by creating poisons during training and injecting them into training batches. We show that this defense withstands adaptive attacks, generalizes to diverse threat models, and incurs a better performance trade-off than previous defenses.}
+}
+
+@article{cherepanova2021technical,
+  title={Technical Challenges for Training Fair Neural Networks},
+  author={Cherepanova, Valeriia and Nanda, Vedant and Goldblum, Micah and Dickerson, John P and Goldstein, Tom},
+  journal={},
+  year={preprint},
+  html={https://arxiv.org/abs/2102.06764},
+  abstract={As machine learning algorithms have been widely deployed across applications, many concerns have been raised over the fairness of their predictions, especially in high stakes settings (such as facial recognition and medical imaging). To respond to these concerns, the community has proposed and formalized various notions of fairness as well as methods for rectifying unfair behavior. While fairness constraints have been studied extensively for classical models, the effectiveness of methods for imposing fairness on deep neural networks is unclear. In this paper, we observe that these large models overfit to fairness objectives, and produce a range of unintended and undesirable consequences. We conduct our experiments on both facial recognition and automated medical diagnosis datasets using state-of-the-art architectures.}
+}
+
+
+
+
