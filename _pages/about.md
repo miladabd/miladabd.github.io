@@ -2,18 +2,18 @@
 layout: about
 title: about
 permalink: /
-description: Math and ML.  Trying to understand neural networks better.
+description: Respond to every call that excites your sprit (Rumi).
 
 profile:
   align: right
   image: prof_pic.jpg
 
 news: false  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a postdoctoral research fellow at the University of Maryland working with [Tom Goldstein](https://www.cs.umd.edu/~tomg/).  My broad research focus lies at the intersection of machine learning and optimization with the aim of creating practical systems that are secure, efficient, and reliable on real-world problems.  Current areas of study range from dataset security to few-shot learning to making neural networks that can think deeper to extrapolate their knowledge to solve harder problems.  Before my current position, I received a Ph.D. in mathematics at the University of Maryland.
+I am currently a Postdoctoral Research Fellow at the Singapore University of Technology and Design (SUTD) with [Nga-Man Cheung](https://istd.sutd.edu.sg/people/faculty/ngai-man-man-cheung).  I am broaldy interested in machine learning, computer vision, image and video processing. My current research involves few-shot learning, image generation and anomaly detection.
 
 {% comment %} 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
