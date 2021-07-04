@@ -3,12 +3,12 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Micah
+first_name: Milad
 middle_name:
-last_name: Goldblum
-email: goldblum@umd.edu
+last_name: Abdollahzadeh
+email: milad_abdollahzadeh@sutd.edu.sg
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Micah Goldblum. Math and ML.
+  Milad Abdollahzadeh
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -42,12 +42,12 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: goldblum # your GitHub user name
+github_username: miladabd # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: micahgoldblum # your Twitter handle
+twitter_username: miladabd # your Twitter handle
 linkedin_username: # your LinkedIn user name
-scholar_userid: pGDKzuUAAAAJ # your Google Scholar ID
-orcid_id: # your ORCID ID
+scholar_userid: SYDsMNAAAAAJ # your Google Scholar ID
+orcid_id: 0000-0003-4011-4670 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
