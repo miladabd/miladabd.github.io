@@ -10,7 +10,7 @@ profile:
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 I am currently a Postdoctoral Research Fellow at the Singapore University of Technology and Design (SUTD) with [Nga-Man Cheung](https://istd.sutd.edu.sg/people/faculty/ngai-man-man-cheung).  I am broaldy interested in machine learning, computer vision, image and video processing. My current research involves few-shot learning, image generation and anomaly detection.
