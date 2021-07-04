@@ -15,8 +15,6 @@ social: false  # includes social icons at the bottom of the page
 
 I am currently a Postdoctoral Research Fellow at the Singapore University of Technology and Design (SUTD) with [Nga-Man Cheung](https://istd.sutd.edu.sg/people/faculty/ngai-man-man-cheung).  I am broaldy interested in machine learning, computer vision, image and video processing. My current research involves few-shot learning, image generation and anomaly detection.
 
-Some things I enjoy are playing soccer, running, cooking, raising our girl, and of course neural nets.
-
 {% comment %} 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
