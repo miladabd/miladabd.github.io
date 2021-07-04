@@ -27,7 +27,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 600px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -45,7 +45,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: miladabd # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: miladabd # your Twitter handle
-linkedin_username: # your LinkedIn user name
+linkedin_username: milad-abdollahzadeh-b0764361 # your LinkedIn user name
 scholar_userid: SYDsMNAAAAAJ # your Google Scholar ID
 orcid_id: 0000-0003-4011-4670 # your ORCID ID
 medium_username: # your Medium username
@@ -141,8 +141,8 @@ github: [metadata]
 
 scholar:
 
-  last_name: Goldblum
-  first_name: [Micah]
+  last_name: Abdollahzadeh
+  first_name: [Milad]
 
   style: apa
   locale: en
