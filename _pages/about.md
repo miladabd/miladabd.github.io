@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Respond to every call that excites your sprit (Rumi).
+description: Respond to every call that excites your sprit. --*Rumi*--
 
 profile:
   align: right
