@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: Milad Abdollahzadeh # the website title (if blank, full name will be used instead)
-first_name: Milad
+first_name: **Milad**
 middle_name:
 last_name: Abdollahzadeh
 email: milad_abdollahzadeh@sutd.edu.sg
@@ -142,7 +142,7 @@ github: [metadata]
 scholar:
 
   last_name: Abdollahzadeh
-  first_name: **Milad**
+  first_name: [Milad]
 
   style: apa
   locale: en
